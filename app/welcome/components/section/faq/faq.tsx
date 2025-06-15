@@ -2,7 +2,12 @@ import React from "react";
 
 import faqStyles from "./faq.module";
 import FaqItem from "./faqItem";
-import { Faq } from "@/index";
+
+export interface Faq {
+    id:number;
+    question: string;
+    answer: string;  
+  }
 
 type Props = {
     data?: Faq[];
