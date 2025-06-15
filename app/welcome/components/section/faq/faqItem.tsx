@@ -2,7 +2,9 @@ import React, { useState } from "react";
 
 import AddLineIcon from "remixicon-react/AddLineIcon";
 import faqStyles from "./faq.module";
-import { Faq } from "@/index";
+import type { Faq } from "./faq"; 
+
+
 
 type Props = {
   data: Faq;
