@@ -32,7 +32,7 @@ const Category = () => {
                     { name: "Ghanaian", flag: "/ghana.svg" },
 
                 ].map((cat, index) => (
-                    <CarouselItem className='basis-[120px]'>
+                    <CarouselItem key={index}  className='basis-[120px]'>
                         <div key={index} className="flex flex-col gap-[20px] items-center">
                             <Image
                                 src={cat.flag}

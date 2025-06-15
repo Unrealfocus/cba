@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+
 import Nav from "./component/nav/nav";
 import Banner from "./component/banner/banner";
 import Category from "./component/category/category";

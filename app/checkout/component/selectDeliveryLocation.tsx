@@ -1,11 +1,8 @@
-import { MapPinIcon, ChevronRight, House } from 'lucide-react'
+import { MapPinIcon, ChevronRight, } from 'lucide-react'
 import React from 'react'
 import {
     Sheet,
-    SheetClose,
     SheetContent,
-    SheetDescription,
-    SheetFooter,
     SheetHeader,
     SheetTitle,
     SheetTrigger,

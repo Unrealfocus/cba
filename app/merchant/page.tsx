@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+
 import Nav from "../home/component/nav/nav";
 import OpeningAlert from "./component/openingAlert";
 import MerchantInfo from "./component/merchantInfo";

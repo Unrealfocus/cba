@@ -123,15 +123,21 @@ const CustomerSection = () => {
     }, []);
 
     useEffect(() => {
-        let interval: any | undefined;
+        let interval: number | undefined;
+    
         if (isMobile) {
-            interval = setInterval(() => {
+            interval = window.setInterval(() => {
                 setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
             }, 5000);
         }
-        return () => clearInterval(interval);
+    
+        return () => {
+            if (interval !== undefined) {
+                clearInterval(interval);
+            }
+        };
     }, [isMobile, images.length]);
-
+    
     return (
         <div className={cls.container}>
             <div className={cls.tab}>

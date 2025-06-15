@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import Hero from "./welcome/components/section/hero/hero";
 import Category from "./welcome/components/section/category/catergory";
 import CustomerSection from "./welcome/components/section/feature/feature";
@@ -8,7 +7,6 @@ import Ads from "./welcome/components/section/ads/ads";
 import Blog from "./welcome/components/section/blog/blog";
 import Faq from "./welcome/components/section/faq/faq";
 import { AdsBanner } from "./welcome/components/section/ads_banner/adsBanner";
-import Footer from "./welcome/components/section/footer/footer";
 import Nav from "./home/component/nav/nav";
 // import Footer from "./welcome/components/section/footer/footer";
 

@@ -1,5 +1,5 @@
 "use client"
-import React, { useContext } from "react";
+import React  from "react";
 import { Grid, useMediaQuery } from "@mui/material";
 
 import Link from "next/link";
@@ -50,7 +50,7 @@ export default function Footer() {
             <ul className={footerStyles.column}>
               <li className={footerStyles.columnItem}>
                 <Link href="/welcome" className={`${footerStyles.listItem} text-base font-semibold`}>
-                  "Important Links"
+                  Important Links
                 </Link>
               </li>
               {/* Rest of the links... */}
@@ -61,7 +61,7 @@ export default function Footer() {
             <ul className={footerStyles.column}>
               <li className={footerStyles.columnItem}>
                 <Link href="/recipes" className={`${footerStyles.listItem} text-base font-semibold`}>
-                  "Follow Us"
+                  Follow Us
                 </Link>
               </li>
               <li>

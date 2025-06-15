@@ -1,10 +1,7 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 import {
     Sheet,
-    SheetClose,
     SheetContent,
     SheetDescription,
     SheetFooter,
@@ -12,9 +9,8 @@ import {
     SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet";
-import { Separator } from "@/components/ui/separator"
 
-import { ShoppingCart, MapPinIcon } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 import CartItem from './cartItem';
 import { useRouter } from "next/navigation";
 

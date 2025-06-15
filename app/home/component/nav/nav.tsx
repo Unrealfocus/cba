@@ -7,7 +7,7 @@ import MenuLineIcon from "remixicon-react/MenuLineIcon";
 import Filter2FillIcon from "remixicon-react/EqualizerFillIcon";
 import { cls } from "./nav.module";
 import LocationInfo from "./location";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogDescription, DialogHeader,  DialogTrigger } from "@/components/ui/dialog";
 import { LoginForm } from "@/components/login-form";
 import Cart from "../cart/cart";
 import { useRouter } from "next/navigation";

@@ -1,7 +1,5 @@
 
-
 import React from 'react';
-import { useRouter } from "next/router";
 import callToActionStyles from './adsBanner.module';
 
 export const AdsBanner = () => {

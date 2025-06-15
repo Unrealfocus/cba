@@ -2,10 +2,7 @@ import { ChevronRight } from 'lucide-react'
 import React from 'react'
 import {
     Sheet,
-    SheetClose,
     SheetContent,
-    SheetDescription,
-    SheetFooter,
     SheetHeader,
     SheetTitle,
     SheetTrigger,
